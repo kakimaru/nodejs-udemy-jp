@@ -1,0 +1,26 @@
+/* styles.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;700;800;900&display=swap');
+
+/* Add styles here to customize the appearance of your app */
+input, label, div {
+  font-size: 1.2rem;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-left: 8px;
+}
+
+button {
+  padding: 8px 16px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: none;
+}
+
+button:hover {
+  background-color: blue;
+  color: white;
+}

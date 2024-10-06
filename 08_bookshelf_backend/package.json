@@ -1,0 +1,20 @@
+{
+  "name": "08_bookshelf_backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:api": "npx nodemon server/app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-validator": "^7.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
